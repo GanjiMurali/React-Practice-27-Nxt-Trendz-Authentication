@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90%;
+  margin: 30px;
+}
+
+.home-data {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  margin-right: 20px;
+}
+
+.home-data-heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+
+.home-data-paragraph {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.home-page-button {
+  height: 40px;
+  width: 120px;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.home-desktop-img {
+  height: 500px;
+  width: 500px;
+}
+
+.error-massage {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 3px;
+}
